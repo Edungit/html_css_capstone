@@ -90,6 +90,17 @@
   text-align: center;
 }
 
+.partners {
+    color: #D3D3D3;
+    font-size: 29px;
+    text-align: center;
+}
+
+.black-bg {
+  background-color: #272A31;
+  padding: 30px;
+}
+
 .program {
     text-align: center;
     color: white;
@@ -98,6 +109,12 @@
 
 .flex {
   margin-bottom: 25px;
+}
+
+.add {
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
 }
 
 .space {
@@ -253,6 +270,17 @@
     text-align: center;
   }
 
+  .partners {
+    color: #D3D3D3;
+    font-size: 29px;
+    text-align: center;
+  }
+
+  .black-bg {
+    background-color: #272A31;
+    padding: 30px;
+  }
+
   .flex {
     display: flex;
     padding-bottom: 20px;
@@ -263,6 +291,19 @@
     display: flex;
     padding-bottom: 20px;
     margin-bottom: 60px;
+  }
+
+  .flex-2 {
+    display: flex;
+    padding-bottom: 15px;
+  }
+
+  .align-box {
+    margin-left: 200px;
+  }
+
+  .middle {
+    padding-left: 200px;
   }
 
   .flex h3 {
@@ -278,6 +319,22 @@
     background-color: #272a31d7;
     padding: 30px;
     text-align: center;
+  }
+
+  .mozilla {
+    margin-left: 150px;
+    justify-content: center;
+  }
+
+  .add {
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .footer-add {
+    margin: 10px;
+    padding: 30px;
   }
 
   .program {
