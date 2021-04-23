@@ -13,7 +13,7 @@ The aim of this project is to develop a real-world-like project based on an onli
   * W3C Validator
 
 ## Live demo
-[Live Demo Link](https://edungit.github.io/edunnaty_design_agency/)
+[Live Demo Link](https://edungit.github.io/html_css_capstone/)
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
  * [LinkedIn](https://www.linkedin.com/in/edun-habeeb-635680131/)
 
 
-Feel free to check the [issues page](https://github.com/edungit/edunnaty_design_agency/issues).
+Feel free to check the [issues page](https://edungit.github.io/html_css_capstone/issues).
 
 ## Show your support
 Give a :star: if you like this project!
