@@ -1,6 +1,6 @@
 # HTML Capstone Project for Interior Design Training Event
 
-This is a capstone project that focuses on developing a website for a Web Design Training Event.
+This is a capstone project that focuses on developing a website for a Interior Design Training Event.
 <br><br><img src="img/screen1.JPG"><br>
 <br><img src="img/screen2.JPG"><br>
 
