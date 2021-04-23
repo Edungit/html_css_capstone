@@ -8,17 +8,7 @@ body {
   position: relative;
 }
 
-.fw-headine h1 {
-  font-size: 52px;
-  font-weight: 300;
-}
-
 @media (max-width: 767px) {
-  .fw-headine h1 {
-    font-size: 40px;
-    font-weight: 300;
-  }
-
   html.fw-noscroll,
   html.fw-noscroll body {
     overflow-y: hidden !important;
@@ -62,11 +52,8 @@ body {
   transform: translateY(-6px) rotate(-45deg);
 }
 
-/* END Burger-Menu Animation */
-
-/* Menu Styles */
 .navbar-default {
-  border-color: rgba(214, 214, 214, 0.4);
+  border-color: rgba(255, 116, 116, 0.4);
   background-color: rgba(255, 255, 255, 0.95);
   min-height: 52px;
 }
@@ -90,20 +77,13 @@ body {
   padding-left: 10px;
 }
 
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  border: none;
-  background-color: transparent;
-}
-
 .navbar-nav > li > a {
   padding-top: 8px;
   padding-bottom: 0;
   line-height: 44px;
   font-size: 13px;
   font-weight: 700;
-  color: #4c5c67 !important;
+  color: #2d3a42 !important;
 }
 
 .navbar-brand {
@@ -116,14 +96,14 @@ body {
   display: block;
 }
 
-.navbar-brand img {
+.navbar-name img {
   display: block;
   float: right;
   height: 52px;
   padding: 12px 0 12px 0;
 }
 
-.navbar-brand span {
+.navbar-name span {
   display: block;
   float: right;
   height: 52px;
