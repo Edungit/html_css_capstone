@@ -77,18 +77,24 @@
     padding: 30px;
   }
 
+  .small-red {
+    color: #ec5242;
+  }
+
   .big-button2 {
     background-color: #ec5242;
     padding-bottom: 20px;
     cursor: pointer;
     height: 60px;
-    width: 180px;
+    width: 25vw;
     font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 15px;
-    margin-left: 130px;
+    margin-left: 40%;
     color: #d3d3d3;
     display: block;
+    padding-right: 10px;
+    padding-left: -2px;
   }
 
   .p-text {
@@ -140,6 +146,19 @@
     text-align: center;
   }
 
+
+  .nav-button {
+    background-color: white;
+    color: #ec5242;
+    border: #ec5242 solid 2px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .left-mob {
+    float: left;
+  }
+
   .partners {
     color: #d3d3d3;
     font-size: 29px;
@@ -154,7 +173,9 @@
   .program {
     text-align: center;
     color: white;
-    margin-left: 120px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    width: 100vw;
   }
 
   .flex {
@@ -171,8 +192,25 @@
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
-    height: 60px;
+    height: 120px;
     background-color: #272a31c2;
+    padding-top: 20px;
+  }
+
+  .wp {
+    width: 70%;
+    padding-top: 30px;
+    padding-left: 18px;
+  }
+
+  .font-m {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .font-p {
+    font-size: 12px;
+    padding-left: 10px;
   }
 
   .text-white {
@@ -227,8 +265,14 @@
   }
 
   .flex-2 {
-    display: flex;
+    display: block;
     padding-bottom: 15px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .flex-box {
+    display: flex;
   }
 
   .flex-mob {
@@ -248,6 +292,10 @@
     padding: 110px;
     margin: 20px;
     color: #d3d3d3;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .mobile-flex {
@@ -310,6 +358,16 @@
   .left-p5 {
     margin-left: 30px;
   }
+
+  .img {
+    margin-right: 12px;
+    padding-right: 12px;
+  }
+
+  .img-m {
+    margin-right: 12px;
+    padding-right: 12px;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -324,9 +382,9 @@
   .social-link {
     background-color: #272a31;
     min-width: 100%;
-    margin-top: -17px;
+    margin-top: -18px;
     height: 30px;
-    padding: 10px;
+    padding: 19px;
     display: flex;
   }
 
@@ -353,9 +411,9 @@
   .round-container {
     border: solid 1px #272a31;
     border-radius: 100px;
-    width: 35%;
+    width: 60%;
     background: white;
-    margin-left: 480px;
+    margin-left: 250px;
     padding: 10px;
   }
 
@@ -364,11 +422,11 @@
     padding: 200px;
     cursor: pointer;
     height: 100px;
-    width: 170px;
+    width: 20vw;
     font-family: 'COCOGOOSE', sans-serif;
     font-weight: 900;
-    font-size: 25px;
-    margin-left: 600px;
+    font-size: 15px;
+    margin-left: 40%;
     color: #d3d3d3;
   }
 
@@ -379,7 +437,7 @@
   .ul-link {
     display: flex;
     list-style: none;
-    margin-left: 55%;
+    margin-left: 70%;
   }
 
   .ul-link2 {
@@ -437,9 +495,13 @@
   }
 
   .logo {
-    height: 50px;
-    width: 200px;
-    margin-left: 30px;
+    height: 180px;
+    width: 130px;
+    margin-left: 80px;
+  }
+
+  .logo-img {
+    margin-left: 40px;
   }
 
   .nav-link {
@@ -476,7 +538,7 @@
     border-right: #b7b8ba solid 0.5px;
     border-left: #b7b8ba solid 0.5px;
     border-bottom: #b7b8ba solid 0.5px;
-    padding-left: 250px;
+    padding-left: 170px;
     height: 70px;
   }
 
@@ -489,6 +551,26 @@
     font-size: 35px;
     color: #ec5242;
     font-weight: 400;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .img {
+    margin-right: 12px;
+    padding-right: 12px;
+  }
+
+  .img-m {
+    margin-right: 12px;
+    padding-right: 12px;
+    margin-left: -15px;
+  }
+
+  .event-mail {
+    color: #ec5242;
+    text-decoration: none;
   }
 
   .bold {
@@ -562,13 +644,12 @@
     padding-bottom: 15px;
   }
 
-  .flex-3 {
+  .flex-box {
     display: flex;
-    padding-bottom: 15px;
   }
 
   .align-box {
-    margin-left: 200px;
+    margin-left: 150px;
   }
 
   .middle {
@@ -588,10 +669,11 @@
     background-color: #272a31d7;
     padding: 30px;
     text-align: center;
+    width: 400px;
   }
 
   .mozilla {
-    margin-left: 150px;
+    margin-left: 40px;
     justify-content: center;
   }
 
@@ -611,15 +693,25 @@
     color: #d3d3d3;
     text-align: center;
     justify-content: center;
-    margin-left: 500px;
+    margin-left: 45%;
     margin-bottom: 20px;
+    width: 100vw;
   }
+
 
   .border-stripe {
     background-color: white;
     border: #ec5242 4px solid;
     padding: 10px;
     width: 90%;
-    margin-left: 70px;
+    position: static;
+    margin-left: 5%;
+
   }
+
+  .table {
+    table-layout: fixed;
+  }
+
+
 }
