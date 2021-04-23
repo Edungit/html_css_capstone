@@ -86,7 +86,7 @@ body {
   color: #2d3a42 !important;
 }
 
-.navbar-brand {
+.navbar-name {
   padding: 0 11px;
   height: auto;
   font-size: 28px;
@@ -125,15 +125,15 @@ body {
     text-align: left;
   }
 
-  .navbar-brand {
+  .navbar-name {
     display: none;
   }
 
-  .navbar-brand img {
+  .navbar-name img {
     display: none;
   }
 
-  .navbar-brand span {
+  .navbar-name span {
     display: none;
   }
 
